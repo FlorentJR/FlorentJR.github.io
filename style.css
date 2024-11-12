@@ -1,0 +1,188 @@
+body,html{
+    margin: 0 0;
+
+}
+
+header{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0x;
+    background-color:grey;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#aboutme{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:aliceblue;
+
+}
+    .section1-left{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .section1-right{
+        width: 40%;
+        background-color: black;
+    
+    }
+
+#myskills{
+display: flex;
+justify-content:space-around;
+width: 100%;
+background-color: bisque;
+
+    }
+    .skillcard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+
+    }
+        .skillimage{
+            width: 45px;
+            height: 45px;
+            background-color: aqua;
+        }
+
+
+#myprojects{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+    .section3-title{
+
+    }
+
+    .achievmentcontainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .achievmentcard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        
+
+    }
+        .achievmentimage{
+            width: 100px;
+            height: 100px;
+            background-color:brown;
+
+        }
+
+#review{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+
+}
+
+.reviewcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    
+
+}
+
+.reviewcard-up{
+
+}
+.reviewcard-down{
+    display: flex;
+
+}
+
+.reviewer-avatar{
+
+}
+.reviewer-details{
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 10px;
+    
+}
+
+
+
+
+/* BOUTONS */
+.button{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: solid 2.5px #8005F2;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+ }
+ 
+    .button:hover{
+    border: solid 2.5px #ba79f8;
+    }
+ 
+    .primary{
+    background: #8005f2;
+    color: white;
+    }  
+ 
+    .primary:hover{
+    background: #ba79f8;
+    }
+ 
+    .secondary{
+    background: transparent;
+    color: #8005F2;
+    } 
+ 
+    .secondary:hover{
+    color: #ba79f8;
+    }
+ 
+    .buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    }
+ 
