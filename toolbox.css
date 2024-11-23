@@ -16,32 +16,32 @@ html, body{
    justify-content: center;
    padding: 8px 16px;
    border-radius: 8px;
-   border: solid 2.5px #8005F2;
+   border: solid 2.5px #7AA95C;
    text-decoration: none;
    font-weight: 500;
    transition: all .3s ease-in-out;
 }
 
 .button:hover{
-   border: solid 2.5px #ba79f8;
+   border: solid 2.5px #86b966;
 }
 
 .primary{
-   background: #8005f2;
+   background: #7AA95C;
    color: white;
 }
 
 .primary:hover{
-   background: #ba79f8;
+   background: #86b966;
 }
 
 .secondary{
    background: transparent;
-   color: #8005F2;
+   color: #7AA95C;
 } 
 
 .secondary:hover{
-   color: #ba79f8;
+   color: #9fda7b;
 }
 
 .buttons-container{
@@ -70,7 +70,7 @@ html, body{
 }
 
 .link:hover{
-   color: #8005F2;
+   color: #9BCFAA;
 }
 
 
